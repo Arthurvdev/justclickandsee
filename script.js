@@ -7,6 +7,7 @@ function soma() {
 }
 
 function mostrarNaTela() {
+
     const p = document.querySelector("p")
     p.innerHTML = numero
 
