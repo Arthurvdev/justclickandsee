@@ -1,0 +1,113 @@
+body {
+    background-color: rgb(41, 41, 41);
+}
+
+div {
+    background-color: rgb(0, 0, 0);
+    height: 400px;
+    width: 400px;
+    padding: 0;
+    top: 18%;
+    left: 35%;
+    position: absolute;
+    border-radius: 20px;
+    padding: 15px;
+    transition: 0.5s;
+}
+
+div:hover{
+    transform: scale(1.2);
+    transition: 0.5s;
+    box-shadow: 25px -10px rgb(54, 54, 54);
+    border: 1px solid rgb(95, 139, 150);
+}
+
+#login {
+    position: fixed;
+    color: white;
+    font-size: 70px;
+    text-align: center;
+    margin-top: 180px;
+    margin-left: 105px;
+    padding-top: 1px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    height: 80px;
+    font-style: italic;
+    font-family: -apple-system, BlinkMacSystemFont, 
+    'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 
+    'Open Sans', 'Helvetica Neue', sans-serif;
+  
+
+}
+
+#imagem_usuario {
+    width: 200px;
+    position: absolute;
+    margin-left: 100px;
+    padding: 0;
+}
+
+.inputbox {
+
+position: relative;
+width: 200px;
+height: 75px;
+top: 290px;
+left: 90px;
+padding-right: 1px;
+padding-left: 25px;
+
+}
+
+.inputbox:hover{
+    background-color: grey;
+    box-shadow: none;
+}
+
+#usuario {
+    border-radius: 10px;
+    border: 0;
+    height: 30px;
+}
+
+#senha {
+    border-radius: 10px;
+    border: 0;
+    margin-top: 10px;
+    height: 30px;
+}
+
+.btn_voltar {
+    margin-top: 5px;
+    margin-left: 10px;   
+    padding-top:  2px;
+    position: fixed;
+    background-color: black;
+    width: 70px;
+    height: 70px;
+    transition: 0.3s;
+    border-radius: 50px;
+}
+
+.btn_voltar:hover {
+    transform: scale(1.2);
+}
+
+#voltar_img {
+    margin: 0;
+    padding: 0;
+    height: 50px;
+    width: 50px;
+}
+
+@media screen and (max-width: 720px) {
+
+   div {
+       position: relative;
+       margin: 0;
+       padding: 0;
+       width: 500px;
+       height: 500px;
+   }
+}
